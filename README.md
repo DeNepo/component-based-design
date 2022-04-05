@@ -47,30 +47,58 @@ your study time and to measure your progress:
 
 - render a static page with provided data
 - component props
+- splitting components with design in mind
+  - one folder with a main component
+  - sub-components for your convenience (not part of public contract)
 
 ### [3. Stateful Components](./3-stateful-components)
 
-- create components that manage internal state and emit custom events
+- VDOM
+- deeper look in hooks: make your own
+  - your own counter hook
 - `useState`
+  - not shared between components
+- `useEffect` (any side-effect)
+- component lifecycle
+- what is a hook
+  - simple, just enough for the flavor
+  - the react docs "rules of hooks"
+
+### [4. Events](./4-events)
+
+- create components that manage internal state and emit custom events
 - handling events
-
-### [4. Higher-Order Components](./4-higher-order-components)
-
 - build reusable components that take functions as arguments
+- child components communicating with parent components
+- passing functions as props
 
-### [5. Global State](./5-global-state)
+### [5. Component Structure](./5-component-structure)
 
-- store and manage global app state shared between components
-- `useContext`
+- splitting components with logic in mind
+  - why create dumb components when hooks can be anywhere?
+- re-render cycles (all children)
+  - why putting state at lower levels is efficient
+  - why not to use everything in global state
 
 ### [6. Consuming APIs](./6-consuming-apis)
 
 - fetch and use API data in components
-- `useEffect`
+- async `useEffect` callbacks
 
 ### [7. Frontend Routing](./7-frontend-routing)
 
 - react router
+
+### [8. Global State](./8-global-state)
+
+- being careful about what you put in `useContext`
+  - only move data to context when it's necessary
+- store and manage global app state shared between components
+- `useContext`
+  - shared state, not the same as `useState`
+- other state management systems/strategies exist
+
+<!-- ### [8. Testing](./8-testing) -->
 
 [TOP](#component-based-design)
 
@@ -120,14 +148,25 @@ The wild world of React is full of different ways to structure applications and 
       - functions that fetch and process API data
     /components
       - React components
+      - more important to talk about the decision process
+        than suggesting a specific folder structure
+      /shared
+        don't force it, let it happen
+      /Component
+        Component.jsx
+        SubComponent.jsx
+        styles.css
+      App.jsx
+        <header>
+        <routes>
+        <footer>
     /context
       - initialize React context with ../data
     /data
+      ? merge with /context ?
       - initial app state
-    /logic
+    /utils
       - testable logic functions
-    /routes
-      - frontend React routes
   /LICENSE
   /package.json
   /README.md

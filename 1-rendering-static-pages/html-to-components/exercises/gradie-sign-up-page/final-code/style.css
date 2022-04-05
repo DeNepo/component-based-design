@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  padding: 2% 4%;
+  flex-wrap: wrap;
+}
+
+header {
+  background-image: url(./assets/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  border-radius: 10px;
+  margin: 0 5%;
+  flex-wrap: wrap-reverse;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 30px;
+  margin: 0 8%;
+  position: relative;
+  top: 15%;
+}
+
+.sub-img {
+  max-width: 300px;
+  height: auto;
+  cursor: pointer;
+}
+
+.header-title {
+  background-color: #003142;
+  width: 38%;
+  height: auto;
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 10px;
+}
+
+.text-container {
+  position: relative;
+  top: 40px;
+}
+
+h4 {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.header-title p {
+  color: rgb(194, 194, 194);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.sub-header-title {
+  background-color: #fff;
+  height: 435px;
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  padding: 0 4%;
+  position: relative;
+  right: 22%;
+  top: 10px;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding-bottom: 20px;
+  margin-top: 18.5%;
+}
+
+form label {
+  letter-spacing: 1.2px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+form input {
+  display: block;
+  border-radius: 6px;
+  padding: 12px 35px;
+  border: 1px solid rgb(207, 207, 207);
+  outline: none;
+  margin: 8px 0;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid rgb(49, 49, 49);
+}
+
+input:hover {
+  outline: none;
+  border: 1px solid rgb(190, 187, 187);
+}
+
+::placeholder {
+  position: relative;
+  right: 14%;
+}
+
+.checkbox {
+  display: inline;
+}
+
+.checkbox,
+.form-title {
+  display: inline;
+  word-wrap: wrap;
+  margin-left: 4px;
+}
+
+span {
+  border-bottom: 1px solid #333;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+span:hover {
+  color: #6060ec;
+  border-bottom: 1px solid #6969f7;
+}
+
+a {
+  color: #fff;
+  background-color: #003142;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  padding: 12px 20px;
+  transition: background-color 0.5s ease-in;
+  position: relative;
+  top: 15%;
+  right: 40%;
+}
+
+a:hover {
+  background-color: #05455a;
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+
+  .login-form-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .header-title {
+    width: 90%;
+    height: auto;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .sub-img {
+    max-width: 200px;
+    height: 300px;
+  }
+
+  .sub-header-title {
+    background-color: red;
+    width: 85%;
+    position: relative;
+    left: -2%;
+    height: 300px;
+  }
+
+  a {
+    display: block;
+  }
+}
+
+/* https://github.com/WaiYanMoeMyintt/Basic-HTML-CSS-Projects */

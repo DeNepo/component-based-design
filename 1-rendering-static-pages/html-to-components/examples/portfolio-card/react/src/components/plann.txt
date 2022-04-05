@@ -1,0 +1,5 @@
+card container
+  image container
+    sub image
+  image header
+  footer

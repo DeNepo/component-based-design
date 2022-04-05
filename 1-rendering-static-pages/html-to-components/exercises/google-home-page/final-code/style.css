@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 2% 3%;
+}
+
+.nav-bar-first-item {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 25px;
+}
+
+ul li {
+  color: #000;
+  font-size: 1rem;
+}
+
+.nav-bar-second-item {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 25px;
+}
+
+.fa-beer {
+  color: #333;
+}
+
+.fa-search {
+  color: blue;
+  position: relative;
+  left: 45px;
+  top: 20px;
+}
+
+img {
+  position: relative;
+  bottom: 8px;
+  width: 38px;
+  height: 38px;
+  border-radius: 60%;
+  display: block;
+  position: relative;
+  border: 0;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+}
+
+.g {
+  color: #4285f4;
+}
+
+.o {
+  color: rgb(234, 67, 53);
+}
+
+.o2 {
+  color: #fbbc05;
+}
+
+.g2 {
+  color: #4285f4;
+}
+
+.l {
+  color: #34a853;
+}
+
+.e {
+  color: rgb(234, 67, 53);
+}
+
+input {
+  padding: 15px 200px;
+  outline: none;
+  border: 1px solid rgb(238, 236, 236);
+  border-radius: 25px;
+  position: relative;
+  top: 25px;
+}
+
+button {
+  position: relative;
+  top: 45px;
+  padding: 15px 26px;
+  border: none;
+  outline: none;
+  color: #333;
+  background-color: #f8f9fa;
+  margin: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap-reverse;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 0 20px;
+}
+
+.footer-section-1 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+.footer-section-2 {
+  display: block;
+  text-align: center;
+}
+
+.footer-section-3 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}
+
+/* https://github.com/WaiYanMoeMyintt/Basic-HTML-CSS-Projects */

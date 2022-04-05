@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 2% 7%;
+  margin-top: 35px;
+  font-family: "Roboto Slab", serif;
+  background-color: #ccc;
+}
+
+header {
+  display: block;
+  width: 50%;
+  height: 600px;
+  background-color: rgb(255, 255, 255);
+  padding: 0 20px;
+  border-radius: 10px;
+  box-shadow: -2px 41px 46px -13px rgba(122, 122, 122, 0.75);
+  position: relative;
+  bottom: 30px;
+}
+
+header img {
+  display: block;
+  position: relative;
+  left: 38%;
+  cursor: pointer;
+  width: 150px;
+  height: auto;
+}
+
+header .input-form {
+  display: block;
+  position: relative;
+  left: 18%;
+}
+
+.input-form a {
+  display: block;
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 650;
+  border: 1px solid rgb(214, 214, 214);
+  width: 60%;
+  padding: 10px 35px;
+  text-align: center;
+  margin: 20px;
+  border-radius: 25px;
+}
+
+.input-form i {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.fa-apple {
+  font-size: 1.3rem;
+}
+
+.fa-windows {
+  color: #6a6af5;
+  font-size: 1.3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #000;
+  text-align: center;
+  font-weight: 800;
+  position: relative;
+  top: 10px;
+}
+
+p::before {
+  content: " slkdfk";
+  background-color: rgb(197, 197, 197);
+  width: 70%;
+  height: 2px;
+  color: #fff;
+  margin-top: 20px;
+  display: block;
+  border-radius: 8px;
+  position: absolute;
+  top: 20px;
+  left: 15%;
+}
+
+.footer-input-form {
+  position: relative;
+  top: 10%;
+  left: 19%;
+}
+
+button {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 12px 55px;
+  width: 62%;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.footer-input-form .input-1 {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 8px 55px;
+  outline: none;
+  border: 2px solid rgb(122, 122, 247);
+
+  /* border: 2px solid #b4f2f3; */
+}
+
+.footer-input-form .input-2 {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border: 1px solid rgb(214, 214, 214);
+  padding: 8px 55px;
+  text-align: center;
+  border-radius: 25px;
+  margin-top: 20px;
+  outline: none;
+}
+
+.input-2::placeholder {
+  color: #333;
+  position: relative;
+  right: 5px;
+}
+
+.input-1::placeholder {
+  position: relative;
+  right: 5px;
+}
+
+.footer-input-form span {
+  text-align: center;
+  position: relative;
+  top: 35px;
+  left: 35px;
+  font-size: 1rem;
+  color: rgb(65, 63, 63);
+}
+
+.footer-input-form span a {
+  color: #00f;
+  font-weight: 600;
+}
+
+/* https://github.com/WaiYanMoeMyintt/Basic-HTML-CSS-Projects */
