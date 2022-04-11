@@ -43,11 +43,37 @@ your study time and to measure your progress:
 - recreate an HTML/CSS web page using pure functions components and encapsulated styles
 - functional React components
 
+🥚  JSX : you can ...
+
+- [ ]  Write elements with JSX syntax
+- [ ] Use interpolation ({}) to insert JavaScript expressions into JSX
+
+🥚functional React components: you can ...
+
+- [ ] Create a React function component (both function definition and arrow function styles)
+
+- [ ] Import/export components between files
+
+
+
 ### [2. Rendering Data](./2-rendering-data)
 
 - render a static page with provided data
 - component props
 - splitting components with design in mind
+
+🥚 Render data: you will start 
+
+- [ ] thinking about components as pure functions
+
+🥚 Components and props : you can ... 
+
+- [ ] create a  reusable pieces of components
+- [ ] how to pass props into React components
+
+🥚 Create reusable components: you can ...
+
+- [ ] Nest components within other components
   - one folder with a main component
   - sub-components for your convenience (not part of public contract)
 

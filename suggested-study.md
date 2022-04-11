@@ -8,6 +8,7 @@
 - [React Sight](https://www.reactsight.com/)
 - [Hooks & Lifecycle Diagram](https://wavez.github.io/react-hooks-lifecycle/)
 - [Hooks Visualizer](https://lihautan.com/react-hooks-visualiser)
+- [React cheatsheet](https://syllabus.codeyourfuture.io/guides/react-cheatsheet)
 
 ---
 
