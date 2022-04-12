@@ -24,6 +24,11 @@
 
 ---
 
+## Deploy React App
+
+- [Deploy react app to github pages](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)
+
+
 ## React Tutorials on GitHub
 
 - [4GeeksAcademy](https://github.com/4GeeksAcademy/react-tutorial-exercises)
