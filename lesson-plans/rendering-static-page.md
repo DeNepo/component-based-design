@@ -12,7 +12,7 @@ This week we will start the wonderful journey of React! Let's start by learning 
 
 ### Before Break
 
-- _20 min_: Review and Q/A
+- _20 min_: clone the react repo template from here
 - _30 min_: Together Go through the example from [here](../1-rendering-static-pages/html-to-components/examples/portfolio-card/) and create the missing comonents
 - _30 min_: divide into a group and start working on the [exercises](../1-rendering-static-pages/html-to-components/exercises/) 
 - _10 min_: Recap
