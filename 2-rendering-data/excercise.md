@@ -8,8 +8,7 @@ Take a look at the following:
 const hobbies = ["Surfing", "Rock climbing", "Mountain biking", "Breakdancing"];
 ```
 
-1. Use this starter repository:
- [React template repository](https://github.com/HackYourFutureBelgium/react-starter)
+1. use`create-react-app` to create a React application
 2. Create 2 functional components: `<HobbyList>` and `<Hobby>`
 3. Put the `hobbies` variable into the `<HobbyList>` component.
 4. In the `return` statement of the `<HobbyList>` use the `map()` function to return an instance of `<Hobby>` for every hobby in the array
