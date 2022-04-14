@@ -14,7 +14,7 @@ const element = <div>Hello World</div>;
 
 Components are independent and reusable bits of code. They serve the same purpose as JavaScript functions, but work in isolation and return HTML.
 
-````
+````js
 import React from "react";
 import ReactDOM from "react-dom";
 
@@ -35,7 +35,7 @@ There are 3 important parts in this code:
 
 You can combine a component with another component to render both. This is called ``composition``
 
-````
+````js
 const Greeting = () =>{
   return (<span>Hello</span>);
 }
@@ -53,6 +53,7 @@ const HelloWorld = () => {
   );
 }
 ````
+
 In the `HelloWorld` component we are using a reference to the `Greeting` and `Mentor` components. React reads these references when rendering `HelloWorld` and so it renders the `Greeting` and `Mentor` child components.
 
 We are also using some shorter syntax within the HelloWorld component. `<Greeting />` is a shorter way of writing `<Greeting></Greeting>`, which is useful if we don't need to put anything inside the Greeting component.
@@ -60,16 +61,8 @@ We are also using some shorter syntax within the HelloWorld component. `<Greetin
 Notice how the components that we write (`HelloWorld`, `Greeting`, `Mentor`) are written using a `camel case` convention and always start with an uppercase letter. And "regular DOM" components (div, span) are always lowercase? This is a convention to let you know whether you are using a "regular DOM component" or a component that you have written. When you're making your own components, you should always start them with an uppercase letter.
 
 
-## Embedding JavaScript into JSX
 
-Anything in the JSX that is inside curly braces `{}` is interpreted as a regular JavaScript expression.
+## HTML to Components
 
-````
-function Greeting() {
-  const greetingWord = "Hello";
-
-  return <span>{greetingWord}</span>;
-}
-````
-
-Instead of hard-coding the greeting in the `Greeting` component, we are using a variable. Remember that everything between the curly braces is just regular JavaScript.
+Use `create-react-app` to create a React application
+You have to recreate the [HTML/CSS](../1-rendering-static-pages/html-to-components/exercises/) web pages using pure functions components and encapsulated styles.For each excrecise you have to create a new repository from the starter template.
