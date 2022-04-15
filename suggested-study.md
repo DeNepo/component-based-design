@@ -24,10 +24,14 @@
 
 ---
 
+## Create data
+
+create a  fake data from [mockaroo](https://www.mockaroo.com/)
+
 ## Deploy React App
 
 - [Deploy react app to github pages](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)
-
+- [Deploy react app to netlify](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/)
 
 ## React Tutorials on GitHub
 

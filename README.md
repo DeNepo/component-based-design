@@ -41,12 +41,22 @@ your study time and to measure your progress:
 ### [1. Rendering Static Pages](./1-rendering-static-pages)
 
 - recreate an HTML/CSS web page using pure functions components and encapsulated styles
-- functional React components
+
 
 🥚  JSX : you can ...
 
 - [ ]  Write elements with JSX syntax
-- [ ] Use interpolation ({}) to insert JavaScript expressions into JSX
+- [ ] Use interpolation ({}) to insert JavaScript expressions into JSX  //move to part 2.
+
+
+
+
+### [2. Rendering Data](./2-rendering-data)
+
+- functional React components
+- render a static page with provided data
+- component props
+- splitting components with design in mind
 
 🥚functional React components: you can ...
 
@@ -55,16 +65,9 @@ your study time and to measure your progress:
 - [ ] Import/export components between files
 
 
+🥚 Render data: you can
 
-### [2. Rendering Data](./2-rendering-data)
-
-- render a static page with provided data
-- component props
-- splitting components with design in mind
-
-🥚 Render data: you will start 
-
-- [ ] thinking about components as pure functions
+- [ ] Render a list using the `.map` method
 
 🥚 Components and props : you can ... 
 
