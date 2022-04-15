@@ -6,7 +6,7 @@ This week we will start the wonderful journey of React! Let's start by learning 
 
 - what is [React](https://hackyourfuture.github.io/study/#/react/README.md)
 
-- React[documentation](https://reactjs.org/) page
+- React [documentation](https://reactjs.org/) page
 
 
 
