@@ -46,9 +46,6 @@ your study time and to measure your progress:
 🥚  JSX : you can ...
 
 - [ ]  Write elements with JSX syntax
-- [ ] Use interpolation ({}) to insert JavaScript expressions into JSX  //move to part 2.
-
-
 
 
 ### [2. Rendering Data](./2-rendering-data)
@@ -66,7 +63,7 @@ your study time and to measure your progress:
 
 
 🥚 Render data: you can
-
+- [ ] Use interpolation ({}) to insert JavaScript expressions into JSX 
 - [ ] Render a list using the `.map` method
 
 🥚 Components and props : you can ... 
