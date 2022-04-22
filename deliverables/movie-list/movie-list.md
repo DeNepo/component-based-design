@@ -19,7 +19,7 @@ This project uses concepts from the first few chapters in this module, breaking 
 
 ## Checklists
 
-This is a project for small groups from 2-3 people, here's a checklist for your `deliverable` issue:
+This is a project for individual work, here's a checklist for your `deliverable` issue:
 
 ```markdown
 <!-- replace the _ with the correct user name and repo -->
@@ -29,5 +29,5 @@ This is a project for small groups from 2-3 people, here's a checklist for your 
 - [ ] a nice README
 - [pull requests](https://github.com/_/_/pulls)
   - [ ] code review checklist is complete (write your own check list!)
-  - [ ] the reviewer merged the code
+  
 ```
