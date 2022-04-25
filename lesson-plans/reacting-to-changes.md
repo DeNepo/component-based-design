@@ -14,15 +14,15 @@
 ## Before Break
 
 - **All Together**: Q/A from last week
-- **In Small Groups**: Work through [Handling Events](https://syllabus.codeyourfuture.io/react/week-2/lesson#handling-events) from CYF
+- **All Together**: Discuss [Re-Rendering Components](https://syllabus.codeyourfuture.io/react/week-2/lesson#re-rendering-components) and the Virtual DOM
+- **In Small Groups**: Practice working with [State](https://syllabus.codeyourfuture.io/react/week-2/lesson#state) in your components and [stateful-components](component-based-design/3-stateful-components/README.md)
   - don't forget the exercises! [A](https://syllabus.codeyourfuture.io/react/week-2/lesson#exercise-b-estimate-15-min) and [B](https://syllabus.codeyourfuture.io/react/week-2/lesson#exercise-b-estimate-15-min)
 - **All Together**: Each group presents what they struggled with and what they learned
 
 ## After Break
 
-- **All Together**: Discuss [Re-Rendering Components](https://syllabus.codeyourfuture.io/react/week-2/lesson#re-rendering-components) and the Virtual DOM
-- **In Small Groups**: Practice working with [State](https://syllabus.codeyourfuture.io/react/week-2/lesson#state) in your components
-  - don't forget the exercises!
+- **In Small Groups**: Work through [Handling Events](https://syllabus.codeyourfuture.io/react/week-2/lesson#handling-events) from CYF
+  - don't forget the exercises! [A](https://syllabus.codeyourfuture.io/react/week-2/lesson#exercise-b-estimate-15-min) and [B](https://syllabus.codeyourfuture.io/react/week-2/lesson#exercise-b-estimate-15-min)
 - **All Together**: Each group presents what they struggled with and what they learned
 
 ## After Class

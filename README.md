@@ -42,10 +42,10 @@ your study time and to measure your progress:
 
 - recreate an HTML/CSS web page using pure functions components and encapsulated styles
 
-🥚 JSX : you can ...
+🥚  JSX : you can ...
 
-- [ ] Write elements with JSX syntax
-- [ ] Use interpolation ({}) to insert JavaScript expressions into JSX //move to part 2.
+- [ ]  Write elements with JSX syntax
+
 
 ### [2. Rendering Data](./2-rendering-data)
 
@@ -62,6 +62,7 @@ your study time and to measure your progress:
 
 🥚 Render data: you can
 
+- [ ] Use interpolation ({}) to insert JavaScript expressions into JSX
 - [ ] Render a list using the `.map` method
 
 🥚 Components and props : you can ...
@@ -78,15 +79,26 @@ your study time and to measure your progress:
 ### [3. Stateful Components](./3-stateful-components)
 
 - VDOM
-- deeper look in hooks: make your own
-  - your own counter hook
+- what is a hook
 - `useState`
-  - not shared between components
 - `useEffect` (any side-effect)
 - component lifecycle
-- what is a hook
-  - simple, just enough for the flavor
-  - the react docs "rules of hooks"
+
+🥚VDOM : you ....
+
+- [ ]  can differenciate the real dom from the virtual dom
+- [ ]  know what reconciliation process is ..
+
+🥚 Hook
+
+- [ ] simple, just enough for the flavor
+- [ ] the react docs "rules of hooks"
+
+🥚 `use-state`
+
+🥚 `use-effect`
+
+🥚 component lifecycle
 
 ### [4. Events](./4-events)
 
