@@ -42,7 +42,6 @@ your study time and to measure your progress:
 
 - recreate an HTML/CSS web page using pure functions components and encapsulated styles
 
-
 🥚  JSX : you can ...
 
 - [ ]  Write elements with JSX syntax
@@ -61,15 +60,14 @@ your study time and to measure your progress:
 
 - [ ] Import/export components between files
 
-
 🥚 Render data: you can
 
 - [ ] Use interpolation ({}) to insert JavaScript expressions into JSX
 - [ ] Render a list using the `.map` method
 
-🥚 Components and props : you can ... 
+🥚 Components and props : you can ...
 
-- [ ] create a  reusable pieces of components
+- [ ] create small, reusable components
 - [ ] how to pass props into React components
 
 🥚 Create reusable components: you can ...
@@ -201,7 +199,6 @@ The wild world of React is full of different ways to structure applications and 
     /context
       - initialize React context with ../data
     /data
-      ? merge with /context ?
       - initial app state
     /utils
       - testable logic functions
