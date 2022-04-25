@@ -3,14 +3,14 @@
 This lesson will cover a helpful process for structuring the components in your apps:
 
 1. Create a wireframe of the page
-2. Write all visual components (stateless!)
-3. Write stateful "container" component to manage the visual components
+2. Write all functional/pure components, these are only visual and do not `useState`. They just render data.
+3. Write stateful "container" component to manage the visual components, and define the callbacks necessary for event listeners and `useState`
 
 Following this process will help you decouple the visuals from the page's logic, making it easier to maintain the UI and the "brains" of your app separately.
 
 ## Before Class
 
-Nothing new technically! This lesson is all about planning with the React features you've already learned. Make sure you show upa ready to work with:
+Nothing new technically! This lesson is all about planning with the React features you've already learned. Make sure you show up ready to work with:
 
 - Functional Components w/ JSX
 - Event listeners & handlers

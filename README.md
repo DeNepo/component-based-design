@@ -66,7 +66,7 @@ your study time and to measure your progress:
 
 🥚 Components and props : you can ...
 
-- [ ] create a reusable pieces of components
+- [ ] create small, reusable components
 - [ ] how to pass props into React components
 
 🥚 Create reusable components: you can ...
