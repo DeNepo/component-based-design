@@ -40,5 +40,6 @@ create a fake data from [mockaroo](https://www.mockaroo.com/)
 - [HackYourFuture Copenhagen](https://github.com/HackYourFuture-CPH/React)
 - [CodeYourFuture UK](https://syllabus.codeyourfuture.io/react)
 - [Dodds' Beginner's Guide](https://egghead.io/courses/the-beginner-s-guide-to-react)
+- [Create A React Website | ReactJS Tutorial For Beginners by PedroTech](https://www.youtube.com/watch?v=QwarZBtFoFA)
 
 ---
